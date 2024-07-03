@@ -18,12 +18,18 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
-    width: 768px;
     max-width: 100%;
     min-width: 480px;
 }
@@ -40,6 +46,7 @@ body {
 }
 
 .container a {
+    padding: 10px 0 10px;
     color: #333;
     font-size: 13px;
     text-decoration: none;
@@ -59,27 +66,44 @@ body {
     margin-top: 10px;
     cursor: pointer;
 }
-.container button.hidden{
+
+.container button.hidden {
     background-color: transparent;
     border-color: #fff;
 }
-.container .icones{
+
+.container .icones {
     background-color: #fff;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 40px;
     height: 100%;
 }
-.container input{
+
+.container input {
     background-color: #eee;
     border: none;
     margin: 8px 0;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     font-size: 13px;
     border-radius: 8px;
     width: 100%;
     outline: none;
+}
+
+.form-login {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 400px;
+}
+.icones{
+    display: flex;
 }
