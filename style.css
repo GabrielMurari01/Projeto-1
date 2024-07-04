@@ -8,8 +8,7 @@
 }
 
 body {
-    background-image:linear-gradient(to right,#16697a,#82c0cc 30%,#82c0cc 50%,#82c0cc 70%, #16697a 100%),url(Fundo.png);
-    background-repeat: no-repeat;
+    background-image:url(/Imagens/Fundo.png), linear-gradient(to right,#16697a,#82c0cc 30%,#82c0cc 50%,#82c0cc 70%, #16697a 100%);
     display: flex;
     align-items: center;
     justify-content: center;
