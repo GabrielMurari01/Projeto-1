@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image:url(/Imagens/Fundo.png), linear-gradient(to right,#16697a,#82c0cc 30%,#82c0cc 50%,#82c0cc 70%, #16697a 100%);
+    background-image: url(/Imagens/Fundo.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,6 @@ body {
 }
 
 .container a {
-    padding: 10px 0 10px;
     color: #fff;
     font-size: 13px;
     text-decoration: none;
@@ -85,7 +84,7 @@ body {
 .container input {
     background-color: #eee;
     border: none;
-    margin: 8px 0;
+    margin: 15px;
     padding: 10px 15px;
     font-size: 13px;
     border-radius: 8px;
@@ -94,6 +93,7 @@ body {
 }
 
 .form-login {
+    color: #fff;
     display: none;
     flex-direction: column;
     flex-wrap: wrap;
@@ -106,4 +106,35 @@ body {
 
 .icones {
     display: flex;
+}
+
+.icones span {
+    padding: 15px;
+}
+
+.icones .h1 {
+    margin: 0 0 20px;
+}
+
+.form-login .span {
+    padding: 0 0 20px;
+}
+
+.form-login a {
+    padding: 0 0 20px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.form-login input {
+    background-color: #eee;
+    border: none;
+    margin: 20px;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 80%;
+    outline: none;
 }
